@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kingtech</title>
+
+  <!-- CUSTOM CSS -->
+  <link href="./css/index.css" rel="stylesheet"/>
+
+  <!-- FONT AWESOME ICONS -->
+  <script src="https://kit.fontawesome.com/174252d5ff.js" crossorigin="anonymous"></script>
+
+  <!-- BOOTSTRAP -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+  <!-- GOOGLE FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg bg-dark">
+  <div class="container-fluid">
+    <!-- LOGO -->
+    <a class="navbar-brand" href="home.html" style="color: white;margin-left: 5px;font-size: 26px;font-family:'Rubik', sans-serif;"><i class="fa-solid fa-crown fa-1x" style="color: white"></i>  Kingtech</a>
+    <!-- CADASTROS -->
+    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle"  style="color: darkgray;"href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Cadastros</a>
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <li><a class="dropdown-item" href="login.html">Usuários</a></li>
+          <li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item" href="#">Faturas</a></li>
+          <li><a class="dropdown-item" href="#">Despesas</a></li>
+          <li><a class="dropdown-item" href="#">Investimentos</a></li>
+          <li><a class="dropdown-item" href="#">Metas</a></li>
+        </ul>
+      </li>
+    </ul>
+    <!-- DASHBOARD -->
+    <a class="nav-link" style="color: darkgray;margin-right:100%" href="dashboard.html" role="button">Dashboard</a>
+  </div>
+</nav>
+
+<!-- GRID CONTAS A PAGAR -->
+<p class="nav-link" style="font-size: 28px;">Contas a pagar</p>
+<div class="container">
+  <div class="row" style="color: white;font-weight: bold">
+    <div class="col border bg-black">
+      CÓDIGO
+    </div>
+    <div class="col border bg-black">
+      NOME
+    </div>
+    <div class="col border bg-black">
+      VENCIMENTO
+    </div>
+    <div class="col border bg-black">
+      VALOR
+    </div>
+    <div class="col border bg-black">
+      JUROS
+    </div>
+    <div class="col border bg-black">
+      TOTAL
+    </div>
+  </div>
+  <div class="row">
+    <div class="col border bg-danger bg-opacity-50">
+      1
+    </div>
+    <div class="col border bg-danger bg-opacity-50">
+      ROBERTO DIAS
+    </div>
+    <div class="col border bg-danger bg-opacity-50">
+      23/07/2022
+    </div>
+    <div class="col border bg-danger bg-opacity-50">
+      R$299,00
+    </div>
+    <div class="col border bg-danger bg-opacity-50">
+      R$12,00
+    </div>
+    <div class="col border bg-danger bg-opacity-50">
+      R$322,00
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col border bg-light">
+      2
+    </div>
+    <div class="col border bg-light">
+      SAMUEL JORGE
+    </div>
+    <div class="col border bg-light">
+      29/06/2022
+    </div>
+    <div class="col border bg-light">
+      R$125,00
+    </div>
+    <div class="col border bg-light">
+      R$0,00
+    </div>
+    <div class="col border bg-light">
+      R$125,00
+    </div>
+  </div>
+  <div class="row">
+    <div class="col border">
+      3
+    </div>
+    <div class="col border">
+      LUANA VIERA
+    </div>
+    <div class="col border">
+      05/08/2022
+    </div>
+    <div class="col border">
+      R$322,00
+    </div>
+    <div class="col border">
+      R$0,00
+    </div>
+    <div class="col border">
+      R$322,00
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col border bg-light">
+      4
+    </div>
+    <div class="col border bg-light">
+      PEDRO CABRAL
+    </div>
+    <div class="col border bg-light">
+      24/07/2022
+    </div>
+    <div class="col border bg-light">
+      R$433,00
+    </div>
+    <div class="col border bg-light">
+      R$0,00
+    </div>
+    <div class="col border bg-light">
+      R$433,00
+    </div>
+  </div>
+  <div class="row">
+    <div class="col border">
+      5
+    </div>
+    <div class="col border">
+      ALMIR SANTOS
+    </div>
+    <div class="col border">
+      12/12/2022
+    </div>
+    <div class="col border">
+      R$121,00
+    </div>
+    <div class="col border">
+      R$0,00
+    </div>
+    <div class="col border">
+      R$121,00
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col border bg-light">
+      6
+    </div>
+    <div class="col border bg-light">
+      JORGE SILVA
+    </div>
+    <div class="col border bg-light">
+      14/01/2023
+    </div>
+    <div class="col border bg-light">
+      R$554,00
+    </div>
+    <div class="col border bg-light">
+      R$0,00
+    </div>
+    <div class="col border bg-light">
+      R$554,00
+    </div>
+  </div>
+  <div class="row">
+    <div class="col border">
+      7
+    </div>
+    <div class="col border">
+      YURI FRANCA
+    </div>
+    <div class="col border">
+      29/06/2023
+    </div>
+    <div class="col border">
+      R$678,00
+    </div>
+    <div class="col border">
+      R$0,00
+    </div>
+    <div class="col border">
+      R$678,00
+    </div>
+  </div>
+
+  <div class="row bg-danger bg-opacity-50">
+    <div class="col border">
+      8
+    </div>
+    <div class="col border">
+      ROBERTO ALVES
+    </div>
+    <div class="col border  ">
+      25/05/2022
+    </div>
+    <div class="col border  ">
+      R$1780,00
+    </div>
+    <div class="col border  ">
+      R$260,00
+    </div>
+    <div class="col border  ">
+      R$2060,00
+    </div>
+  </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
